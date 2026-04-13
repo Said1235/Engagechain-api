@@ -1,0 +1,19 @@
+{
+  "name": "engagechain-api",
+  "version": "2.0.0",
+  "description": "EngageChain REST API — GenLayer Intelligent Contract. Deploy on Railway, Vercel, Heroku, or any VPS.",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev":   "node server.js"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "dependencies": {
+    "express":     "^4.19.2",
+    "cors":        "^2.8.5",
+    "genlayer-js": "latest"
+  }
+}
